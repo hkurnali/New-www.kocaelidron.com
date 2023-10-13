@@ -120,7 +120,15 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\GebzeDroneCekimleriController.cs" />
+    <Compile Include="Controllers\KandiraDroneCekimleriController.cs" />
+    <Compile Include="Controllers\KocaeliDroneCekimleriController.cs" />
+    <Compile Include="Controllers\GolcukDroneCekimleriController.cs" />
+    <Compile Include="Controllers\HakkimdaController.cs" />
+    <Compile Include="Controllers\HizmetlerimController.cs" />
+    <Compile Include="Controllers\AnasayfaController.cs" />
+    <Compile Include="Controllers\IletisimController.cs" />
+    <Compile Include="Controllers\İzmitDroneCekimleriController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -197,17 +205,20 @@
     <Content Include="starter\assets\images\deneme.png" />
     <Content Include="starter\assets\images\deniz.png" />
     <Content Include="starter\assets\images\DJI_0838.JPG" />
+    <Content Include="starter\assets\images\dugun %281%29.jpg" />
     <Content Include="starter\assets\images\dugun.jpeg" />
+    <Content Include="starter\assets\images\dugun.jpg" />
     <Content Include="starter\assets\images\dugun2.jpg" />
     <Content Include="starter\assets\images\dugun3.jpg" />
+    <Content Include="starter\assets\images\dugun4.jpg" />
     <Content Include="starter\assets\images\Ekran Görüntüsü %28658%29.png" />
     <Content Include="starter\assets\images\Ekran Görüntüsü %28660%29.png" />
     <Content Include="starter\assets\images\Engindenizemalk.jpg" />
     <Content Include="starter\assets\images\EPA %281%29.jpg" />
     <Content Include="starter\assets\images\fb.png" />
-    <Content Include="starter\assets\images\Fotoram.io %281%29.jpg" />
     <Content Include="starter\assets\images\Fotoram.io.jpg" />
     <Content Include="starter\assets\images\hakkimda.jpg" />
+    <Content Include="starter\assets\images\icon2.png" />
     <Content Include="starter\assets\images\images.png" />
     <Content Include="starter\assets\images\isyeri.JPG" />
     <Content Include="starter\assets\images\izmit.jpg" />
@@ -282,6 +293,18 @@
     <Content Include="starter\assets\webfonts\fa-solid-900.woff2" />
     <Content Include="Views\Shared\_MyLayoud.cshtml" />
     <Content Include="Views\Home\Hizmetlerim.cshtml" />
+    <Content Include="Views\Home\Blog.cshtml" />
+    <Content Include="Views\Hakkimda\Index.cshtml" />
+    <Content Include="Views\Iletisim\Index.cshtml" />
+    <Content Include="Views\Hizmetlerim\Index.cshtml" />
+    <Content Include="Views\Blog\Index.cshtml" />
+    <Content Include="Views\Anasayfa\Index.cshtml" />
+    <Content Include="Views\Blog\GolcukDroneCekimleri.cshtml" />
+    <Content Include="Views\GolcukDroneCekimleri\Index.cshtml" />
+    <Content Include="Views\KocaeliDroneCekimleri\Index.cshtml" />
+    <Content Include="Views\İzmitDroneCekimleri\Index.cshtml" />
+    <Content Include="Views\GebzeDroneCekimleri\Index.cshtml" />
+    <Content Include="Views\KandiraDroneCekimleri\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
